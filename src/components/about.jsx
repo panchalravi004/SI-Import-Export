@@ -10,8 +10,7 @@ function About() {
                             <div className="block-heading-1" data-aos="fade-up" data-aos-delay="">
                                 <h2>About Us</h2>
                                 <p>
-                                    Far far away, behind the word mountains, far from the countries
-                                    Vokalia and Consonantia, there live the blind texts.
+                                    Welcome to Shree International Import Export, your trusted partner in the dynamic world of import and export. Established with a vision to redefine global trade, we bring together expertise, innovation, and a commitment to excellence in every aspect of our operations.
                                 </p>
                             </div>
                         </div>
@@ -22,27 +21,9 @@ function About() {
                 <div className="container">
                     <div className="row justify-content-center mb-4 block-img-video-1-wrap">
                         <div className="col-md-12 mb-5">
-                            <figure className="block-img-video-1" data-aos="fade">
-                                <a
-                                    href="https://vimeo.com/45830194"
-                                    data-fancybox=""
-                                    data-ratio={2}
-                                >
-                                    <span className="icon">
-                                        <span className="icon-play" />
-                                    </span>
-                                    <img
-                                        alt="Image"
-                                        className="img-fluid"
-                                        data-cfsrc="/assets/images/depot_delivery_1.jpg"
-                                        style={{ display: "none", visibility: "hidden" }}
-                                    />
-                                    <noscript>
-                                        &lt;img src="images/depot_delivery_1.jpg" alt="Image"
-                                        class="img-fluid" /&gt;
-                                    </noscript>
-                                </a>
-                            </figure>
+                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
+                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
+                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
                         </div>
                     </div>
                     <div className="row">
@@ -476,24 +457,18 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “The Big Oxmox advised her not to do so, because there were
-                                            thousands of bad Commas, wild Question Marks and devious
-                                            Semikoli, but the Little Blind Text didn’t listen. She packed
-                                            her seven versalia, put her initial into the belt and made
-                                            herself on the way.”
+                                            “Choosing Shree International was one of the best decisions we made for our import-export operations. 
+                                            Their attention to detail and proactive approach have consistently ensured smooth transactions and timely deliveries. 
+                                            Their team truly understands our business needs and goes the extra mile to exceed our expectations. 
+                                            Highly recommended!”
                                         </p>
                                     </blockquote>
                                     <figure>
                                         <img
                                             alt="Image"
                                             className="img-fluid rounded-circle mx-auto"
-                                            data-cfsrc="/assets/images/person_1.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/person_3.jpg.webp")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/person_1.jpg" alt="Image" class="img-fluid
-                                            rounded-circle mx-auto" /&gt;
-                                        </noscript>
                                     </figure>
                                     <h3 className="font-size-20 text-black">Ricky Fisher</h3>
                                 </div>
@@ -502,23 +477,18 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “Even the all-powerful Pointing has no control about the blind
-                                            texts it is an almost unorthographic life One day however a
-                                            small line of blind text by the name of Lorem Ipsum decided to
-                                            leave for the far World of Grammar.”
+                                            “Working with Shree International has been a game-changer for our supply chain management. 
+                                            Their expertise and efficiency have streamlined our processes, saving us time and resources 
+                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident 
+                                            in every interaction, and we couldn't be happier with the results.”
                                         </p>
                                     </blockquote>
                                     <figure>
                                         <img
                                             alt="Image"
                                             className="img-fluid rounded-circle mx-auto"
-                                            data-cfsrc="/assets/images/person_2.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/person_1.jpg.webp")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/person_2.jpg" alt="Image" class="img-fluid
-                                            rounded-circle mx-auto" /&gt;
-                                        </noscript>
                                     </figure>
                                     <h3 className="font-size-20 mb-4 text-black">Ken Davis</h3>
                                 </div>
@@ -527,23 +497,17 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “A small river named Duden flows by their place and supplies
-                                            it with the necessary regelialia. It is a paradisematic
-                                            country, in which roasted parts of sentences fly into your
-                                            mouth.”
+                                            “From navigating complex customs regulations to optimizing our logistics strategies, 
+                                            they have consistently delivered exceptional service and tangible results. Their 
+                                            professionalism and reliability make them an invaluable asset to our business.”
                                         </p>
                                     </blockquote>
                                     <figure>
                                         <img
                                             alt="Image"
                                             className="img-fluid rounded-circle mx-auto"
-                                            data-cfsrc="images/person_1.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/person_2.jpg.webp")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/person_1.jpg" alt="Image" class="img-fluid
-                                            rounded-circle mx-auto" /&gt;
-                                        </noscript>
                                     </figure>
                                     <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
                                 </div>
@@ -552,23 +516,17 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “Far far away, behind the word mountains, far from the
-                                            countries Vokalia and Consonantia, there live the blind texts.
-                                            Separated they live in Bookmarksgrove right at the coast of
-                                            the Semantics, a large language ocean.”
+                                            “Their proactive communication, attention to detail, and commitment to 
+                                            finding innovative solutions have made our import-export processes seamless 
+                                            and stress-free. We couldn't be happier with the level of service they provide.”
                                         </p>
                                     </blockquote>
                                     <figure>
                                         <img
                                             alt="Image"
                                             className="img-fluid rounded-circle mx-auto"
-                                            data-cfsrc="images/person_3.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/person_4.jpg")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/person_3.jpg" alt="Image" class="img-fluid
-                                            rounded-circle mx-auto" /&gt;
-                                        </noscript>
                                     </figure>
                                     <h3 className="font-size-20 mb-4 text-black">Robert Steward</h3>
                                 </div>

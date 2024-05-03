@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Header from './common/header';
 import Services from './services';
 import About from './about';
 import Contact from './contact';
