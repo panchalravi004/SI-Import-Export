@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
             <div className="site-wrap" id="home-section">
-                {/* <div className="ftco-blocks-cover-1">
+                <div className="ftco-blocks-cover-1">
                     <div className="ftco-cover-1 overlay" style={{ backgroundImage: `url(${require("../assets/images/depot_hero_1.jpg")})`}} >
                         <div className="container">
                             <div className="row align-items-center justify-content-center text-center">
@@ -102,11 +102,11 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
-                {/* <Services/> */}
+                <Services/>
                 <About/>
-                {/* <Contact/> */}
+                <Contact/>
             </div>
         </>
     )

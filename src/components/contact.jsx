@@ -1,9 +1,7 @@
-import React from 'react'
-
-// import { GridLoader } from 'react-spinners';
-
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from 'react'
+import { GridLoader } from 'react-spinners';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
     
@@ -63,12 +61,13 @@ function Contact() {
 
     return (
         <>
-            {/* {
+            {
                 loading &&
                 <div className="d-flex justify-content-center align-items-center" style={{width:"100%",height:"100%", top:"0",background:"#0000004f",zIndex:1000, position:"fixed"}}>
                     <GridLoader size={10} color={"#ffffff"} loading={loading}/>
                 </div>
-            } */}
+            }
+            <ToastContainer/>
             <div className="site-section bg-light" id="contact-section">
                 <div className="container">
                     <div className="row">
