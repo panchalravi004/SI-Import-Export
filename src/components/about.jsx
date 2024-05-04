@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import '../assets/css/style.css';
 import React from 'react'
 
 function About() {
@@ -21,9 +24,9 @@ function About() {
                 <div className="container">
                     <div className="row justify-content-center mb-4 block-img-video-1-wrap">
                         <div className="col-md-12 mb-5">
-                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
-                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
-                            <img src={require("../assets/images/depot_hero_1.jpg")} alt='test' className='col-lg-4 col-12' />
+                            <img src={require("../assets/images/ship-1.jpg")} alt='test' className='col-lg-4 col-12' />
+                            <img src={require("../assets/images/ship-3.jpg")} alt='test' className='col-lg-4 col-12' style={{margin:"10px 0px"}} />
+                            <img src={require("../assets/images/ship-4.jpg")} alt='test' className='col-lg-4 col-12' />
                         </div>
                     </div>
                     <div className="row">
@@ -36,7 +39,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={19}>0</span>+
+                                            <span data-number={10}>0</span>+
                                         </span>
                                         <span className="caption">Years in Service</span>
                                     </div>
@@ -48,7 +51,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={2332}>0</span>+
+                                            <span data-number={55}>0</span>+
                                         </span>
                                         <span className="caption">Employees</span>
                                     </div>
@@ -60,7 +63,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={231}>0</span>+
+                                            <span data-number={100}>0</span>+
                                         </span>
                                         <span className="caption">Covered Countries</span>
                                     </div>
@@ -72,7 +75,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={827}>0</span>+
+                                            <span data-number={256}>0</span>+
                                         </span>
                                         <span className="caption">Couriers</span>
                                     </div>
@@ -90,140 +93,53 @@ function About() {
                             <div className="block-heading-1" data-aos="fade-up" data-aos-delay="">
                                 <h2>Our Staff</h2>
                                 <p>
-                                    Far far away, behind the word mountains, far from the countries
-                                    Vokalia and Consonantia, there live the blind texts.
+                                    Our dedicated team of industry experts is the driving force behind our success, delivering excellence with every shipment.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="owl-carousel owl-all mb-5">
-                        <div className="block-team-member-1 text-center rounded h-100">
-                            <figure>
-                                <img
-                                    alt="Image"
-                                    className="img-fluid rounded-circle"
-                                    data-cfsrc="/assets/images/person_1.jpg"
-                                    style={{ display: "none", visibility: "hidden" }}
-                                />
-                                <noscript>
-                                    &lt;img src="images/person_1.jpg" alt="Image" class="img-fluid
-                                    rounded-circle" /&gt;
-                                </noscript>
-                            </figure>
-                            <h3 className="font-size-20 text-black">Max Carlson</h3>
-                            <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
-                                Co-Founder
-                            </span>
-                            <p className="mb-4">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts.
-                            </p>
-                            <div className="block-social-1">
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-facebook" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-twitter" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-instagram" />
-                                </a>
+
+                    <div className="container">
+
+                        <div class="row" style={{margin:'30px 0px'}}>
+                            <div className="col-lg-6">
+                                <div style={{width:'100%', height:'400px',}}>
+
+                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owner-image-1.jpg')}/>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Juhil Golaviya</span>
+                                <p style={{ margin: '10px 0px' }}>
+                                    Founder
+                                </p>
+                                <p>
+                                    At Shree International, we pride ourselves on being a leading player in the import and export industry. Our mission is to facilitate international trade by providing efficient and cost-effective solutions to businesses of all sizes. With our team of experts and a strong global network, we ensure smooth operations, timely deliveries, and exceptional customer service. Learn more about our company, values, and commitment to excellence on our About Us page.
+                                </p>
                             </div>
                         </div>
-                        <div className="block-team-member-1 text-center rounded h-100">
-                            <figure>
-                                <img
-                                    alt="Image"
-                                    className="img-fluid rounded-circle"
-                                    data-cfsrc="/assets/images/person_2.jpg"
-                                    style={{ display: "none", visibility: "hidden" }}
-                                />
-                                <noscript>
-                                    &lt;img src="images/person_2.jpg" alt="Image" class="img-fluid
-                                    rounded-circle" /&gt;
-                                </noscript>
-                            </figure>
-                            <h3 className="font-size-20 text-black">Charlotte Pilat</h3>
-                            <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
-                                Co-Founder
-                            </span>
-                            <p className="mb-4">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts.
-                            </p>
-                            <div className="block-social-1">
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-facebook" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-twitter" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-instagram" />
-                                </a>
+
+                        <div class="row" style={{margin:'30px 0px'}}>
+                            <div className="col-lg-6">
+                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Rutvik Golaviya</span>
+                                <p style={{ margin: '10px 0px' }}>
+                                    Founder
+                                </p>
+                                <p>
+                                    Shree International is a globally recognized import and export company dedicated to helping businesses thrive in the international marketplace. With a strong foundation built on integrity, reliability, and customer satisfaction, we have become a trusted partner for companies across various industries.
+                                </p>
+                            </div>
+                            <div className="col-lg-6">
+                                <div style={{width:'100%', height:'400px',}}>
+
+                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owner-image-2.jpg')}/>
+                                </div>
                             </div>
                         </div>
-                        <div className="block-team-member-1 text-center rounded h-100">
-                            <figure>
-                                <img
-                                    alt="Image"
-                                    className="img-fluid rounded-circle"
-                                    data-cfsrc="/assets/images/person_3.jpg"
-                                    style={{ display: "none", visibility: "hidden" }}
-                                />
-                                <noscript>
-                                    &lt;img src="images/person_3.jpg" alt="Image" class="img-fluid
-                                    rounded-circle" /&gt;
-                                </noscript>
-                            </figure>
-                            <h3 className="font-size-20 text-black">Nicole Lewis</h3>
-                            <span className="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
-                                Co-Founder
-                            </span>
-                            <p className="mb-4">
-                                Far far away, behind the word mountains, far from the countries
-                                Vokalia and Consonantia, there live the blind texts.
-                            </p>
-                            <div className="block-social-1">
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-facebook" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-twitter" />
-                                </a>
-                                <a
-                                    href="#"
-                                    className="btn border-w-2 rounded primary-primary-outline--hover"
-                                >
-                                    <span className="icon-instagram" />
-                                </a>
-                            </div>
-                        </div>
+
+
                     </div>
+
                 </div>
                 <div className="site-section bg-light" id="pricing-section">
                     <div className="container">
@@ -234,95 +150,61 @@ function About() {
                                     data-aos="fade-up"
                                     data-aos-delay=""
                                 >
-                                    <h2>Pricing</h2>
+                                    <h2>Product</h2>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        Explore our diverse range of products tailored to meet your import and export needs. From raw materials to finished goods, we offer comprehensive solutions for seamless global trade.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-5">
-                            <div
-                                className="col-md-6 mb-4 mb-lg-0 col-lg-4"
-                                data-aos="fade-up"
-                                data-aos-delay=""
-                            >
-                                <div className="pricing">
-                                    <h3 className="text-center text-black">Basic</h3>
-                                    <div className="price text-center mb-4 ">
-                                        <span>
-                                            <span>$47</span> / year
-                                        </span>
-                                    </div>
-                                    <ul className="list-unstyled ul-check success mb-5">
-                                        <li>Officia quaerat eaque neque</li>
-                                        <li>Possimus aut consequuntur incidunt</li>
-                                        <li className="remove">Lorem ipsum dolor sit amet</li>
-                                        <li className="remove">Consectetur adipisicing elit</li>
-                                        <li className="remove">
-                                            Dolorum esse odio quas architecto sint
-                                        </li>
-                                    </ul>
-                                    <p className="text-center">
-                                        <a href="#" className="btn btn-secondary btn-md">
-                                            Buy Now
-                                        </a>
-                                    </p>
+                        <div className="container mt-5">
+                            <div className="row">
+                                <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img
+                                        src={require("../assets/images/product/pro-1.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Boat on Calm Water"
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
+                                    />
+
+                                    <img
+                                        src={require("../assets/images/product/pro-2.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Wintry Mountain Landscape"
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
+                                    />
                                 </div>
-                            </div>
-                            <div
-                                className="col-md-6 mb-4 mb-lg-0 col-lg-4"
-                                data-aos="fade-up"
-                                data-aos-delay={100}
-                            >
-                                <div className="pricing">
-                                    <h3 className="text-center text-black">Premium</h3>
-                                    <div className="price text-center mb-4 ">
-                                        <span>
-                                            <span>$200</span> / year
-                                        </span>
-                                    </div>
-                                    <ul className="list-unstyled ul-check success mb-5">
-                                        <li>Officia quaerat eaque neque</li>
-                                        <li>Possimus aut consequuntur incidunt</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Consectetur adipisicing elit</li>
-                                        <li className="remove">
-                                            Dolorum esse odio quas architecto sint
-                                        </li>
-                                    </ul>
-                                    <p className="text-center">
-                                        <a href="#" className="btn btn-primary btn-md text-white">
-                                            Buy Now
-                                        </a>
-                                    </p>
+
+                                <div className="col-lg-4 mb-4 mb-lg-0">
+                                    <img
+                                        src={require("../assets/images/product/pro-3.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Mountains in the Clouds"
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
+                                    />
+
+                                    <img
+                                        src={require("../assets/images/product/pro-4.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Boat on Calm Water"
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
+                                    />
                                 </div>
-                            </div>
-                            <div
-                                className="col-md-6 mb-4 mb-lg-0 col-lg-4"
-                                data-aos="fade-up"
-                                data-aos-delay={200}
-                            >
-                                <div className="pricing">
-                                    <h3 className="text-center text-black">Professional</h3>
-                                    <div className="price text-center mb-4 ">
-                                        <span>
-                                            <span>$750</span> / year
-                                        </span>
-                                    </div>
-                                    <ul className="list-unstyled ul-check success mb-5">
-                                        <li>Officia quaerat eaque neque</li>
-                                        <li>Possimus aut consequuntur incidunt</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Consectetur adipisicing elit</li>
-                                        <li>Dolorum esse odio quas architecto sint</li>
-                                    </ul>
-                                    <p className="text-center">
-                                        <a href="#" className="btn btn-secondary btn-md">
-                                            Buy Now
-                                        </a>
-                                    </p>
+
+                                <div className="col-lg-4 mb-4 mb-lg-0">
+                                    <img
+                                        src={require("../assets/images/product/pro-5.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Waves at Sea"
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
+                                    />
+
+                                    <img
+                                        src={require("../assets/images/product/pro-6.png")}
+                                        className="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Yosemite National Park"
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -339,72 +221,64 @@ function About() {
                             <div className="col-lg-6">
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">
-                                        Possimus aut consequuntur incidunt?
+                                        What shipping methods do you offer?
                                     </h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        We offer a range of shipping options, including air freight, ocean freight, and ground transportation, tailored to meet your specific needs.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">
-                                        Dolorum esse odio quas architecto sint?
+                                        How can I track my shipment?
                                     </h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        You can track your shipment in real-time using our online tracking system or by contacting our customer support team for assistance.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">
-                                        Possimus aut consequuntur incidunt?
+                                        What countries do you ship to?
                                     </h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        We provide import and export services to destinations worldwide, ensuring seamless delivery to virtually any location.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">
-                                        Dolorum esse odio quas architecto sint?
+                                        What documents are required for customs clearance?
                                     </h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        The required documents vary depending on the destination and nature of the shipment, but typically include a commercial invoice, packing list, and bill of lading.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
-                                    <h3 className="text-black h4 mb-4">Lorem ipsum dolor sit</h3>
+                                    <h3 className="text-black h4 mb-4">How do you ensure the safety of my cargo?</h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        We implement stringent security measures and work with trusted carriers to safeguard your cargo throughout the transportation process.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
-                                    <h3 className="text-black h4 mb-4">consequuntur incidunt?</h3>
+                                    <h3 className="text-black h4 mb-4">What are your payment terms?</h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
-                                    </p>
-                                </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
-                                    <h3 className="text-black h4 mb-4">
-                                        Possimus aut consequuntur incidunt?
-                                    </h3>
-                                    <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        Our payment terms are flexible and can be tailored to suit your preferences, with options including credit card, wire transfer, and letter of credit.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">
-                                        Dolorum esse odio quas architecto sint?
+                                        Do you provide insurance for shipments?
                                     </h3>
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts.{" "}
+                                        Yes, we offer comprehensive cargo insurance options to protect your shipments against loss, damage, or theft during transit.
+                                    </p>
+                                </div>
+                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                    <h3 className="text-black h4 mb-4">
+                                        How do I get started with your services?
+                                    </h3>
+                                    <p>
+                                        Simply reach out to our team via phone, email, or our online contact form, and we'll guide you through the process of setting up your account and initiating your first shipment.
                                     </p>
                                 </div>
                             </div>
@@ -416,7 +290,7 @@ function About() {
                         <div className="row d-flex no-gutters align-items-stretch">
                             <div
                                 className="col-12 col-lg-6 block__73422 order-lg-2"
-                                style={{ backgroundImage: 'url("images/depot_delivery_1.jpg")' }}
+                                style={{ backgroundImage: `url(${require("../assets/images/man-with-container.jpg")})` }}
                                 data-aos="fade-left"
                                 data-aos-delay=""
                             ></div>
@@ -425,12 +299,11 @@ function About() {
                                 data-aos="fade-right"
                                 data-aos-delay=""
                             >
-                                <h2 className="mb-4 text-black">Why Depot</h2>
+                                <h2 className="mb-4 text-black">Why Shree International</h2>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-                                    error aliquid, dolores animi obcaecati quisquam accusamus soluta?
+                                    Discover the advantages of partnering with us for your import-export needs. From our personalized approach to our commitment to efficiency and reliability, find out why we're the perfect choice for your global trade endeavors.
                                 </p>
-                                <ul className="ul-check primary list-unstyled mt-5">
+                                <ul className="">
                                     <li>Cargo express</li>
                                     <li>Secure Services</li>
                                     <li>Secure Warehouseing</li>
@@ -457,9 +330,9 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “Choosing Shree International was one of the best decisions we made for our import-export operations. 
-                                            Their attention to detail and proactive approach have consistently ensured smooth transactions and timely deliveries. 
-                                            Their team truly understands our business needs and goes the extra mile to exceed our expectations. 
+                                            “Choosing Shree International was one of the best decisions we made for our import-export operations.
+                                            Their attention to detail and proactive approach have consistently ensured smooth transactions and timely deliveries.
+                                            Their team truly understands our business needs and goes the extra mile to exceed our expectations.
                                             Highly recommended!”
                                         </p>
                                     </blockquote>
@@ -477,9 +350,9 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “Working with Shree International has been a game-changer for our supply chain management. 
-                                            Their expertise and efficiency have streamlined our processes, saving us time and resources 
-                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident 
+                                            “Working with Shree International has been a game-changer for our supply chain management.
+                                            Their expertise and efficiency have streamlined our processes, saving us time and resources
+                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident
                                             in every interaction, and we couldn't be happier with the results.”
                                         </p>
                                     </blockquote>
@@ -497,8 +370,8 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “From navigating complex customs regulations to optimizing our logistics strategies, 
-                                            they have consistently delivered exceptional service and tangible results. Their 
+                                            “From navigating complex customs regulations to optimizing our logistics strategies,
+                                            they have consistently delivered exceptional service and tangible results. Their
                                             professionalism and reliability make them an invaluable asset to our business.”
                                         </p>
                                     </blockquote>
@@ -516,8 +389,8 @@ function About() {
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
-                                            “Their proactive communication, attention to detail, and commitment to 
-                                            finding innovative solutions have made our import-export processes seamless 
+                                            “Their proactive communication, attention to detail, and commitment to
+                                            finding innovative solutions have made our import-export processes seamless
                                             and stress-free. We couldn't be happier with the level of service they provide.”
                                         </p>
                                     </blockquote>
@@ -554,33 +427,22 @@ function About() {
                                     data-aos="fade-right"
                                     data-aos-delay=""
                                 >
-                                    <a href="single.html" className="blog-thumbnail mb-3 d-block">
+                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
                                             alt="Image"
                                             className="img-fluid"
-                                            data-cfsrc="../assets/images/depot_hero_1.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/truck-on-road.jpg")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/depot_img_1.jpg" alt="Image"
-                                            class="img-fluid" /&gt;
-                                        </noscript>
                                     </a>
                                     <div className="blog-excerpt">
-                                        <span className="d-block text-muted">Apr 19, 2019</span>
+                                        <span className="d-block text-muted">Apr 24, 2024</span>
                                         <h2 className="h4  mb-3">
-                                            <a href="single.html">
-                                                Knowing the Difference Is Key to Effective Logistics
+                                            <a href="/">
+                                                Navigating Post-Pandemic Trade: Strategies for Success
                                             </a>
                                         </h2>
                                         <p>
-                                            Far far away, behind the word mountains, far from the
-                                            countries Vokalia and Consonantia, there live the blind texts
-                                        </p>
-                                        <p>
-                                            <a href="single.html" className="text-primary">
-                                                Read More
-                                            </a>
+                                            Explore how Shree International adapts to the evolving global trade landscape, offering insights and solutions to thrive in a post-pandemic world.
                                         </p>
                                     </div>
                                 </div>
@@ -591,33 +453,22 @@ function About() {
                                     data-aos="fade-right"
                                     data-aos-delay=""
                                 >
-                                    <a href="single.html" className="blog-thumbnail mb-3 d-block">
+                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
                                             alt="Image"
                                             className="img-fluid"
-                                            data-cfsrc="../assets/images/depot_hero_1.jpg"
-                                            style={{ display: "none", visibility: "hidden" }}
+                                            src={require("../assets/images/girl-in-warehouse.jpg")}
                                         />
-                                        <noscript>
-                                            &lt;img src="images/depot_img_2.jpg" alt="Image"
-                                            class="img-fluid" /&gt;
-                                        </noscript>
                                     </a>
                                     <div className="blog-excerpt">
-                                        <span className="d-block text-muted">Apr 19, 2019</span>
+                                        <span className="d-block text-muted">March 12, 2024</span>
                                         <h2 className="h4  mb-3">
-                                            <a href="single.html">
-                                                Knowing the Difference Is Key to Effective Logistics
+                                            <a href="/">
+                                                Sustainability in Supply Chains: A Priority for 2024
                                             </a>
                                         </h2>
                                         <p>
-                                            Far far away, behind the word mountains, far from the
-                                            countries Vokalia and Consonantia, there live the blind texts
-                                        </p>
-                                        <p>
-                                            <a href="single.html" className="text-primary">
-                                                Read More
-                                            </a>
+                                            Learn how Shree International leads the charge in sustainable logistics, integrating eco-friendly practices and technologies to create greener supply chains for a brighter future.
                                         </p>
                                     </div>
                                 </div>
