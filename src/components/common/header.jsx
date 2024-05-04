@@ -28,17 +28,16 @@ function Header() {
                             </a>
                             <span className="mx-md-2 d-inline-block" />
                             <a href="/" className="">
-                                <span className="mr-2  icon-phone" />
                                 <span className="d-none d-md-inline-block">  </span>
                             </a>
                             <div className="float-right">
                                 <a href="/" className="">
-                                    <span className="mr-2  icon-twitter" />
+                                    <span className="mr-2  icon-phone" />
                                     <span className="d-none d-md-inline-block">+919712950557</span>
                                 </a>
                                 <span className="mx-md-2 d-inline-block" />
                                 <a href="/" className="">
-                                    <span className="mr-2  icon-facebook" />
+                                    <span className="mr-2  icon-phone" />
                                     <span className="d-none d-md-inline-block">+919510500815</span>
                                 </a>
                             </div>
