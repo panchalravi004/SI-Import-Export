@@ -15,7 +15,7 @@ function Header() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <a href="#" className="">
+                            <a href="/" className="">
                                 <span className="mr-2  icon-envelope-open-o" />{" "}
                                 <span className="d-none d-md-inline-block">
                                     <span
@@ -27,18 +27,18 @@ function Header() {
                                 </span>
                             </a>
                             <span className="mx-md-2 d-inline-block" />
-                            <a href="#" className="">
-                                <span className="mr-2  icon-phone" />{" "}
+                            <a href="/" className="">
+                                <span className="mr-2  icon-phone" />
                                 <span className="d-none d-md-inline-block">  </span>
                             </a>
                             <div className="float-right">
-                                <a href="#" className="">
-                                    <span className="mr-2  icon-twitter" />{" "}
+                                <a href="/" className="">
+                                    <span className="mr-2  icon-twitter" />
                                     <span className="d-none d-md-inline-block">+919712950557</span>
                                 </a>
                                 <span className="mx-md-2 d-inline-block" />
-                                <a href="#" className="">
-                                    <span className="mr-2  icon-facebook" />{" "}
+                                <a href="/" className="">
+                                    <span className="mr-2  icon-facebook" />
                                     <span className="d-none d-md-inline-block">+919510500815</span>
                                 </a>
                             </div>
@@ -95,7 +95,7 @@ function Header() {
                         </div>
                         <div className="toggle-button d-inline-block d-lg-none">
                             <a
-                                href="#"
+                                href="/"
                                 className="site-menu-toggle py-5 js-menu-toggle text-black"
                             >
                                 <span className="icon-menu h3"  >

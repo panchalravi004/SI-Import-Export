@@ -1,4 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react'
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React, { useEffect, useRef } from 'react'
 import Services from './services';
 import About from './about';
 import Contact from './contact';
@@ -66,7 +68,7 @@ function Home() {
                         <div className="container">
                             <div className="owl-carousel owl-all">
                                 <div className="service text-center">
-                                    <a href="#">
+                                    <a href="/">
                                         <img
                                             alt="Image"
                                             className="img-fluid"
@@ -76,7 +78,7 @@ function Home() {
                                     </a>
                                     <div className="px-md-3">
                                         <h3>
-                                            <a href="#">Global Expertise</a>
+                                            <a href="/">Global Expertise</a>
                                         </h3>
                                         <p>
                                             Shree International Import Export is a globally recognized import and export company dedicated to helping businesses thrive in the international marketplace.  With a strong foundation built on integrity, reliability, and customer satisfaction.
@@ -84,7 +86,7 @@ function Home() {
                                     </div>
                                 </div>
                                 <div className="service text-center">
-                                    <a href="#">
+                                    <a href="/">
                                         <img
                                             alt="Image"
                                             className="img-fluid"
@@ -95,7 +97,7 @@ function Home() {
                                     </a>
                                     <div className="px-md-3">
                                         <h3>
-                                            <a href="#">Tailored Solutions</a>
+                                            <a href="/">Tailored Solutions</a>
                                         </h3>
                                         <p>
                                             We understand that every business has unique import and export requirements. That's why we offer tailored solutions designed to meet your specific needs. Our team takes the time to understand your goals, challenges, and industry dynamics.
@@ -103,7 +105,7 @@ function Home() {
                                     </div>
                                 </div>
                                 <div className="service text-center">
-                                    <a href="#">
+                                    <a href="/">
                                         <img
                                             alt="Image"
                                             className="img-fluid"
@@ -113,7 +115,7 @@ function Home() {
                                     </a>
                                     <div className="px-md-3">
                                         <h3>
-                                            <a href="#">Reliable Partnerships</a>
+                                            <a href="/">Reliable Partnerships</a>
                                         </h3>
                                         <p>
                                             We have built strong and reliable partnerships with reputable suppliers, manufacturers, logistics providers, and government agencies worldwide. These partnerships enable us to offer seamless and efficient import and export services.
