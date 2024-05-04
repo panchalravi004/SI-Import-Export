@@ -16,7 +16,7 @@ function Header() {
                     <div className="row">
                         <div className="col-12">
                             <a href="/" className="">
-                                <span className="mr-2  icon-envelope-open-o" />{" "}
+                                <span className="mr-2 d-none d-md-inline-block  icon-envelope-open-o" />{" "}
                                 <span className="d-none d-md-inline-block">
                                     <span
                                         className="__cf_email__"
@@ -32,13 +32,13 @@ function Header() {
                             </a>
                             <div className="float-right">
                                 <a href="/" className="">
-                                    <span className="mr-2  icon-phone" />
-                                    <span className="d-none d-md-inline-block">+919712950557</span>
+                                    <span className="mr-2 d-none d-inline-block icon-phone" />
+                                    <span className="d-md-inline-block">+919712950557</span>
                                 </a>
                                 <span className="mx-md-2 d-inline-block" />
                                 <a href="/" className="">
-                                    <span className="mr-2  icon-phone" />
-                                    <span className="d-none d-md-inline-block">+919510500815</span>
+                                    <span className="mr-2  d-none d-inline-block icon-phone" />
+                                    <span className=" d-md-inline-block">+919510500815</span>
                                 </a>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ function Header() {
                                 className="site-menu-toggle py-5 js-menu-toggle text-black"
                             >
                                 <span className="icon-menu h3"  >
-                                    <i class="fa-solid fa-bars"></i>
+                                    {/* <i class="fa-solid fa-bars"></i> */}
                                 </span>
                             </a>
                         </div>
