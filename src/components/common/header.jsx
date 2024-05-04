@@ -22,24 +22,24 @@ function Header() {
                                         className="__cf_email__"
                                         data-cfemail="620b0c040d221b0d1710060d0f030b0c4c010d0f"
                                     >
-                                        [email&nbsp;protected]
+                                        shreeinternational2110@gmail.com
                                     </span>
                                 </span>
                             </a>
                             <span className="mx-md-2 d-inline-block" />
                             <a href="#" className="">
                                 <span className="mr-2  icon-phone" />{" "}
-                                <span className="d-none d-md-inline-block">1+ (234) 5678 9101</span>
+                                <span className="d-none d-md-inline-block">  </span>
                             </a>
                             <div className="float-right">
                                 <a href="#" className="">
                                     <span className="mr-2  icon-twitter" />{" "}
-                                    <span className="d-none d-md-inline-block">Twitter</span>
+                                    <span className="d-none d-md-inline-block">+919712950557</span>
                                 </a>
                                 <span className="mx-md-2 d-inline-block" />
                                 <a href="#" className="">
                                     <span className="mr-2  icon-facebook" />{" "}
-                                    <span className="d-none d-md-inline-block">Facebook</span>
+                                    <span className="d-none d-md-inline-block">+919510500815</span>
                                 </a>
                             </div>
                         </div>
@@ -51,10 +51,12 @@ function Header() {
                 role="banner"
             >
                 <div className="container">
-                    <div className="row align-items-center position-relative">
+                    <div className="row align-items-center position-relative" style={{padding:"10px 0px"}}>
                         <div className="site-logo">
+                            <img src={require('../../assets/images/logo.png')} width={100} style={{margin:'5px 0px'}} alt='logo' />
                             <a href="index.html" className="text-black">
-                                <span className="text-primary">Depot</span>
+                                <p className="text-primary">Shree International</p>
+                                <span className='text-secondary'>Import & Export</span>
                             </a>
                         </div>
                         <div className="col-12">
@@ -96,7 +98,9 @@ function Header() {
                                 href="#"
                                 className="site-menu-toggle py-5 js-menu-toggle text-black"
                             >
-                                <span className="icon-menu h3" />
+                                <span className="icon-menu h3"  >
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
                             </a>
                         </div>
                     </div>

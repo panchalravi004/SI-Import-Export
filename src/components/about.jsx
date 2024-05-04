@@ -150,7 +150,7 @@ function About() {
                                     data-aos="fade-up"
                                     data-aos-delay=""
                                 >
-                                    <h2>Product</h2>
+                                    <h2>Products</h2>
                                     <p>
                                         Explore our diverse range of products tailored to meet your import and export needs. From raw materials to finished goods, we offer comprehensive solutions for seamless global trade.
                                     </p>

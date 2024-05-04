@@ -20,3 +20,23 @@
     font-weight: 500;
     color: black;
 }
+
+/* .home-background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: scalebg 10s infinite ease-in-out;
+}
+
+@keyframes scalebg {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+} */
