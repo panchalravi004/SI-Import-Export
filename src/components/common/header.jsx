@@ -36,7 +36,7 @@ function Header() {
                                     <span className="d-md-inline-block">+919712950557</span>
                                 </a>
                                 <span className="mx-md-2 d-inline-block" />
-                                <a href="/" className="">
+                                <a href="/" className="ml-2">
                                     <span className="mr-2  d-none d-inline-block icon-phone" />
                                     <span className=" d-md-inline-block">+919510500815</span>
                                 </a>
