@@ -31,7 +31,7 @@ function Header() {
                                 <span className="d-none d-md-inline-block">  </span>
                             </a>
                             <div className="float-right">
-                                <a href="/" className="">
+                                <a href="/" className="mr-2">
                                     <span className="mr-2 d-none d-inline-block icon-phone" />
                                     <span className="d-md-inline-block">+919712950557</span>
                                 </a>
