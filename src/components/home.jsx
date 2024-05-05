@@ -36,7 +36,7 @@ function Home() {
             <div className="site-wrap" id="home-section">
                 <div className="ftco-blocks-cover-1">
                     <div className="ftco-cover-1 overlay" style={{ backgroundImage: `url(${require("../assets/images/depot_hero_1.jpg")})`}} >
-                        <video className='bg-video' style={{position:'absolute', width:'100%', height:'100%', objectFit:'cover'}} loop={true} autoPlay="autoplay" muted>
+                        <video className='bg-video' style={{position:'absolute', width:'100%', height:'100%', objectFit:'cover'}} loop={true} playsinline autoPlay="autoplay" muted>
                             <source src={require("../assets/images/videos/final.mov")} />
                             {/* <source src={require("../assets/images/videos/v-1.mp4")} /> */}
                         </video>
