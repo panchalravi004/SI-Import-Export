@@ -39,7 +39,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={5}>0</span>+
+                                            <span data-number={5}>5</span>+
                                         </span>
                                         <span className="caption">Years in Service</span>
                                     </div>
@@ -51,7 +51,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={25}>0</span>+
+                                            <span data-number={25}>25</span>+
                                         </span>
                                         <span className="caption">Employees</span>
                                     </div>
@@ -63,7 +63,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={20}>0</span>+
+                                            <span data-number={20}>20</span>+
                                         </span>
                                         <span className="caption">Covered Countries</span>
                                     </div>
@@ -75,7 +75,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={110}>0</span>+
+                                            <span data-number={110}>110</span>+
                                         </span>
                                         <span className="caption">Couriers</span>
                                     </div>
