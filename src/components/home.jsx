@@ -9,8 +9,8 @@ function Home() {
     
     const videoRef = useRef(null);
     useEffect(() => {
-        const v3Src = document.location.origin+require("../assets/images/videos/v-3.mp4");
-        const v1Src = document.location.origin+require("../assets/images/videos/v-1.mp4");
+        // const v3Src = document.location.origin+require("../assets/images/videos/v-3.mp4");
+        // const v1Src = document.location.origin+require("../assets/images/videos/v-1.mp4");
 
         const handleVideoEnded = () => {
             console.log(videoRef);
@@ -36,7 +36,7 @@ function Home() {
             <div className="site-wrap" id="home-section">
                 <div className="ftco-blocks-cover-1">
                     <div className="ftco-cover-1 overlay" style={{ backgroundImage: `url(${require("../assets/images/depot_hero_1.jpg")})`}} >
-                        <video ref={videoRef} className='bg-video' style={{position:'absolute', width:'100%', height:'100%', objectFit:'cover'}} loop={true} playsinline="playsinline" autoPlay="autoplay" muted>
+                        <video ref={videoRef} className='bg-video' style={{position:'absolute', width:'100%', height:'100%', objectFit:'cover'}} autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true">
                             <source src={require("../assets/images/videos/final.mov")} />
                             {/* <source src={require("../assets/images/videos/v-1.mp4")} /> */}
                         </video>
