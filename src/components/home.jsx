@@ -14,7 +14,7 @@ function Home() {
 
         const handleVideoEnded = () => {
             console.log(videoRef);
-            // let video = document.querySelector('.bg-video');
+            let video = document.querySelector('.bg-video');
             // const currentSource = video.currentSrc;
             // if (currentSource === v3Src) {
             //     videoRef.current.src = v1Src;
@@ -22,7 +22,7 @@ function Home() {
             //     videoRef.current.src = v3Src;
             // }
             // videoRef.current.load();
-            videoRef.current.play();
+            video.play();
         };
     
         videoRef.current.addEventListener('onloadeddata', handleVideoEnded);
