@@ -105,38 +105,25 @@ function About() {
                             <div className="col-lg-6">
                                 <div style={{width:'100%', height:'400px',}}>
 
-                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owner-image-1.jpg')}/>
+                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owners-v2.jpg')}/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Juhil Golaviya</span>
+                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Juhil Golaviya & Rutvik Golaviya</span>
                                 <p style={{ margin: '10px 0px' }}>
-                                    Founder
+                                    Founders
                                 </p>
                                 <p>
-                                    At Shree International, we pride ourselves on being a leading player in the import and export industry. Our mission is to facilitate international trade by providing efficient and cost-effective solutions to businesses of all sizes. With our team of experts and a strong global network, we ensure smooth operations, timely deliveries, and exceptional customer service. Learn more about our company, values, and commitment to excellence on our About Us page.
+                                    At Shree International, we pride ourselves on being a leading player in the import and export industry. 
+                                    Our mission is to facilitate international trade by providing efficient and cost-effective solutions to 
+                                    businesses of all sizes.
+                                    <br/><br/>
+                                    With our team of experts and a strong global network, we ensure smooth operations, timely deliveries, and 
+                                    exceptional customer service. Learn more about our company, values, and commitment to excellence on our 
+                                    About Us page.
                                 </p>
                             </div>
                         </div>
-
-                        <div class="row" style={{margin:'30px 0px'}}>
-                            <div className="col-lg-6">
-                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Rutvik Golaviya</span>
-                                <p style={{ margin: '10px 0px' }}>
-                                    Founder
-                                </p>
-                                <p>
-                                    Shree International is a globally recognized import and export company dedicated to helping businesses thrive in the international marketplace. With a strong foundation built on integrity, reliability, and customer satisfaction, we have become a trusted partner for companies across various industries.
-                                </p>
-                            </div>
-                            <div className="col-lg-6">
-                                <div style={{width:'100%', height:'400px',}}>
-
-                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owner-image-2.jpg')}/>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
 
@@ -262,7 +249,8 @@ function About() {
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">What are your payment terms?</h3>
                                     <p>
-                                        Our payment terms are flexible and can be tailored to suit your preferences, with options including credit card, wire transfer, and letter of credit.
+                                        Our payment terms are flexible and can be tailored to suit your preferences, with options 
+                                        including LOC(Letter Of Credit), Cash In Advance, Documentary Collections, Wire Transfer.
                                     </p>
                                 </div>
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
@@ -344,6 +332,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Ricky Fisher</h3>
+                                    <h6 className="text-black">United States</h6>
                                 </div>
                             </div>
                             <div>
@@ -364,6 +353,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 mb-4 text-black">Ken Davis</h3>
+                                    <h6 className="text-black">United Kingdom</h6>
                                 </div>
                             </div>
                             <div>
@@ -383,6 +373,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
+                                    <h6 className="text-black">Germany</h6>
                                 </div>
                             </div>
                             <div>
@@ -402,6 +393,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 mb-4 text-black">Robert Steward</h3>
+                                    <h6 className="text-black">Japan</h6>
                                 </div>
                             </div>
                         </div>
@@ -464,7 +456,7 @@ function About() {
                                         <span className="d-block text-muted">March 12, 2024</span>
                                         <h2 className="h4  mb-3">
                                             <a href="/">
-                                                Sustainability in Supply Chains: A Priority for 2024
+                                                Sustainability in Supply Chains
                                             </a>
                                         </h2>
                                         <p>

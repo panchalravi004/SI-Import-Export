@@ -45,16 +45,13 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <header
-                className="site-navbar js-sticky-header site-navbar-target"
-                role="banner"
-            >
+            <header className="site-navbar js-sticky-header site-navbar-target" role="banner">
                 <div className="container">
-                    <div className="row align-items-center position-relative" style={{padding:"10px 0px"}}>
+                    <div className="row align-items-center position-relative" style={{padding:"20px 0px"}}>
                         <div className="site-logo">
-                            <img src={require('../../assets/images/logo.png')} width={100} style={{margin:'5px 0px'}} alt='logo' />
-                            <a href="index.html" className="text-black">
-                                <p className="text-primary">Shree International</p>
+                            <img src={require('../../assets/images/logo-2.png')} width={120} style={{margin:'5px 0px'}} alt='logo' />
+                            <a href="/" className="text-black">
+                                <p style={{color:'#1c5597', fontSize:'18px', margin:'0', textTransform:'uppercase'}} >Shree International</p>
                                 <span className='text-secondary'>Import & Export</span>
                             </a>
                         </div>
