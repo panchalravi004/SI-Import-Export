@@ -39,7 +39,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={10}>0</span>+
+                                            <span data-number={5}>0</span>+
                                         </span>
                                         <span className="caption">Years in Service</span>
                                     </div>
@@ -51,7 +51,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={55}>0</span>+
+                                            <span data-number={25}>0</span>+
                                         </span>
                                         <span className="caption">Employees</span>
                                     </div>
@@ -63,7 +63,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={100}>0</span>+
+                                            <span data-number={20}>0</span>+
                                         </span>
                                         <span className="caption">Covered Countries</span>
                                     </div>
@@ -75,7 +75,7 @@ function About() {
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
-                                            <span data-number={256}>0</span>+
+                                            <span data-number={110}>0</span>+
                                         </span>
                                         <span className="caption">Couriers</span>
                                     </div>
@@ -314,6 +314,27 @@ function About() {
                             </div>
                         </div>
                         <div className="owl-carousel nonloop-block-13">
+                        <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Working with Shree International has been a game-changer for our supply chain management.
+                                            Their expertise and efficiency have streamlined our processes, saving us time and resources
+                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident
+                                            in every interaction, and we couldn't be happier with the results.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_1.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 mb-4 text-black">Ken Davis</h3>
+                                    <h6 className="text-black">Africa</h6>
+                                </div>
+                            </div>
                             <div>
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
@@ -332,30 +353,10 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Ricky Fisher</h3>
-                                    <h6 className="text-black">United States</h6>
+                                    <h6 className="text-black">UAE</h6>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
-                                    <blockquote className="mb-4">
-                                        <p>
-                                            “Working with Shree International has been a game-changer for our supply chain management.
-                                            Their expertise and efficiency have streamlined our processes, saving us time and resources
-                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident
-                                            in every interaction, and we couldn't be happier with the results.”
-                                        </p>
-                                    </blockquote>
-                                    <figure>
-                                        <img
-                                            alt="Image"
-                                            className="img-fluid rounded-circle mx-auto"
-                                            src={require("../assets/images/person_1.jpg.webp")}
-                                        />
-                                    </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">Ken Davis</h3>
-                                    <h6 className="text-black">United Kingdom</h6>
-                                </div>
-                            </div>
+                            
                             <div>
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
@@ -373,7 +374,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
-                                    <h6 className="text-black">Germany</h6>
+                                    <h6 className="text-black">Singapore</h6>
                                 </div>
                             </div>
                             <div>
@@ -393,7 +394,68 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 mb-4 text-black">Robert Steward</h3>
-                                    <h6 className="text-black">Japan</h6>
+                                    <h6 className="text-black">Nepal</h6>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Working with Shree International has been a game-changer for our supply chain. 
+                                            Their expertise and dedication to efficiency have helped us optimize our operations 
+                                            and reduce costs. Their team is always responsive and proactive”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_1.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 mb-4 text-black">David M</h3>
+                                    <h6 className="text-black">Vietnam</h6>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “We've been partnering with Shree International for several years now, and they 
+                                            have consistently delivered exceptional service. Their attention to detail, reliability, 
+                                            and commitment to customer satisfaction set them apart.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_3.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 mb-4 text-black">Jessica K</h3>
+                                    <h6 className="text-black">Malaysia</h6>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Choosing Shree International was one of the best decisions we made for 
+                                            our import-export business. Their expertise in navigating international 
+                                            trade regulations and their dedication to providing personalized solutions 
+                                            have been invaluable to us. ”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_2.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 mb-4 text-black">Alex H</h3>
+                                    <h6 className="text-black">Srilanka</h6>
                                 </div>
                             </div>
                         </div>

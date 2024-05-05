@@ -49,9 +49,9 @@ function Header() {
                 <div className="container">
                     <div className="row align-items-center position-relative" style={{padding:"20px 0px"}}>
                         <div className="site-logo">
-                            <img src={require('../../assets/images/logo-2.png')} width={120} style={{margin:'5px 0px'}} alt='logo' />
+                            <img src={require('../../assets/images/logo-2.png')} width={100} style={{margin:'5px 0px'}} alt='logo' />
                             <a href="/" className="text-black">
-                                <p style={{color:'#1c5597', fontSize:'18px', margin:'0', textTransform:'uppercase'}} >Shree International</p>
+                                <p style={{color:'#1c5597', fontSize:'17px', margin:'0', textTransform:'uppercase'}} >Shree International</p>
                                 <span className='text-secondary'>Import & Export</span>
                             </a>
                         </div>
