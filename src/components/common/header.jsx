@@ -83,7 +83,7 @@ function Header() {
                                     </li>
                                     <li>
                                         <a href="#contact-section" className="nav-link">
-                                            Contact
+                                            Contact Us
                                         </a>
                                     </li>
                                 </ul>

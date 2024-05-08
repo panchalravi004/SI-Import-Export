@@ -39,7 +39,7 @@ function Footer() {
                                     </p>
                                 </div>
                                 <div className="col-md-6 mr-auto">
-                                    <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.5083711797824!2d72.95577657431039!3d21.171954682846764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be044cdf05f62bb%3A0x17245cd26a3aeb6c!2sMahalaxmi%20Dyeing%20%26%20Printing%20Mill!5e0!3m2!1sen!2sin!4v1714803677028!5m2!1sen!2sin" height="450" style={{width:'100%', border:'0', borderRadius:'10px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3720.6203957156786!2d72.9803056!3d21.1675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEwJzAzLjAiTiA3MsKwNTgnNDkuMSJF!5e0!3m2!1sen!2sin!4v1715181837101!5m2!1sen!2sin" height="450" style={{width:'100%', border:'0', borderRadius:'10px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>

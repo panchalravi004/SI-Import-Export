@@ -91,7 +91,7 @@ function About() {
                     <div className="row mb-5 justify-content-center">
                         <div className="col-md-7 text-center">
                             <div className="block-heading-1" data-aos="fade-up" data-aos-delay="">
-                                <h2>Our Staff</h2>
+                                <h2>Founder</h2>
                                 <p>
                                     Our dedicated team of industry experts is the driving force behind our success, delivering excellence with every shipment.
                                 </p>
@@ -171,7 +171,7 @@ function About() {
                                     />
 
                                     <img
-                                        src={require("../assets/images/product/pro-4.png")}
+                                        src={require("../assets/images/product/pro-8.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Boat on Calm Water"
                                         style={{height:"200px",width:'100%',objectFit:"cover"}}
@@ -331,8 +331,8 @@ function About() {
                                             src={require("../assets/images/person_1.jpg.webp")}
                                         />
                                     </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">Ken Davis</h3>
-                                    <h6 className="text-black">Africa</h6>
+                                    <h3 className="font-size-20 text-black">Ken Davis</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Africa</span>
                                 </div>
                             </div>
                             <div>
@@ -353,7 +353,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Ricky Fisher</h3>
-                                    <h6 className="text-black">UAE</h6>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>UAE</span>
                                 </div>
                             </div>
                             
@@ -374,7 +374,7 @@ function About() {
                                         />
                                     </figure>
                                     <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
-                                    <h6 className="text-black">Singapore</h6>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Singapore</span>
                                 </div>
                             </div>
                             <div>
@@ -393,8 +393,8 @@ function About() {
                                             src={require("../assets/images/person_4.jpg")}
                                         />
                                     </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">Robert Steward</h3>
-                                    <h6 className="text-black">Nepal</h6>
+                                    <h3 className="font-size-20 text-black">Robert Steward</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Nepal</span>
                                 </div>
                             </div>
                             <div>
@@ -413,8 +413,8 @@ function About() {
                                             src={require("../assets/images/person_1.jpg.webp")}
                                         />
                                     </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">David M</h3>
-                                    <h6 className="text-black">Vietnam</h6>
+                                    <h3 className="font-size-20 text-black">David M</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Vietnam</span>
                                 </div>
                             </div>
                             <div>
@@ -433,8 +433,8 @@ function About() {
                                             src={require("../assets/images/person_3.jpg.webp")}
                                         />
                                     </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">Jessica K</h3>
-                                    <h6 className="text-black">Malaysia</h6>
+                                    <h3 className="font-size-20 text-black">Jessica K</h3>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>Malaysia</span>
                                 </div>
                             </div>
                             <div>
@@ -454,8 +454,8 @@ function About() {
                                             src={require("../assets/images/person_2.jpg.webp")}
                                         />
                                     </figure>
-                                    <h3 className="font-size-20 mb-4 text-black">Alex H</h3>
-                                    <h6 className="text-black">Srilanka</h6>
+                                    <h3 className="font-size-20 text-black">Alex H</h3>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>Srilanka</span>
                                 </div>
                             </div>
                         </div>
