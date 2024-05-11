@@ -105,7 +105,7 @@ function About() {
                             <div className="col-lg-6">
                                 <div style={{width:'100%', height:'400px',}}>
 
-                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owners-v2.jpg')}/>
+                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owners-v3.jpg')}/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
