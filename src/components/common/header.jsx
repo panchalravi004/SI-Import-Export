@@ -9,7 +9,25 @@ function Header() {
                         <span className="icon-close2 js-menu-toggle" />
                     </div>
                 </div>
-                <div className="site-mobile-menu-body" />
+                <div className="site-mobile-menu-body" >
+                    <ul class="site-nav-wrap">
+                        <li>
+                            <a href="#home-section" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#services-section" class="nav-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#why-us-section" class="nav-link">Why Us</a>
+                        </li>
+                        <li>
+                            <a href="#about-section" class="nav-link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact-section" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div className="top-bar">
                 <div className="container">
@@ -47,11 +65,11 @@ function Header() {
             </div>
             <header className="site-navbar js-sticky-header site-navbar-target" role="banner">
                 <div className="container">
-                    <div className="row align-items-center position-relative" style={{padding:"20px 0px"}}>
+                    <div className="row align-items-center position-relative" style={{ padding: "20px 0px" }}>
                         <div className="site-logo">
-                            <img src={require('../../assets/images/logo-2.png')} width={95} style={{margin:'5px 0px'}} alt='logo' />
+                            <img src={require('../../assets/images/logo-2.png')} width={95} style={{ margin: '5px 0px' }} alt='logo' />
                             <a href="/" className="text-black">
-                                <p style={{color:'#1c5597', fontSize:'16px', margin:'0', textTransform:'uppercase'}} >Shree International</p>
+                                <p style={{ color: '#1c5597', fontSize: '16px', margin: '0', textTransform: 'uppercase' }} >Shree International</p>
                                 <span className='text-secondary'>Import & Export</span>
                             </a>
                         </div>
@@ -60,7 +78,7 @@ function Header() {
                                 className="site-navigation text-right ml-auto "
                                 role="navigation"
                             >
-                                <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                                <ul className="site-menu main-menu ml-auto d-none d-lg-block">
                                     <li>
                                         <a href="#home-section" className="nav-link">
                                             Home

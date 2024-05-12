@@ -12,10 +12,10 @@ jQuery(document).ready(function($) {
 
 	var siteMenuClone = function() {
 
-		$('.js-clone-nav').each(function() {
-			var $this = $(this);
-			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
-		});
+		// $('.js-clone-nav').each(function() {
+		// 	var $this = $(this);
+		// 	$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
+		// });
 
 
 		setTimeout(function() {

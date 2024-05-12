@@ -304,8 +304,7 @@ function About() {
                 </div>
                 <div
                     className="site-section bg-light block-13"
-                    id="testimonials-section"
-                    data-aos="fade"
+                    
                 >
                     <div className="container">
                         <div className="text-center mb-5">
