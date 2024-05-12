@@ -1402,3 +1402,12 @@ h5,
 .bg-light {
   background-color: #f6f5f5 !important;
 }
+
+
+.client-carousel {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.client-carousel::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}

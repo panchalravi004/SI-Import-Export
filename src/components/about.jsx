@@ -306,9 +306,9 @@ function About() {
                                 <h2>Happy Clients</h2>
                             </div>
                         </div>
-                        <div className="owl-carousel " style={{display:'block',opacity:'1'}}>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                        <div className="owl-carousel client-carousel" style={{display:'flex',opacity:'1', overflowX:'auto'}}>
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “Working with Shree International has been a game-changer for our supply chain management.
@@ -328,8 +328,8 @@ function About() {
                                     <span className="text-black" style={{fontWeight:'bold'}}>Africa</span>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “Choosing Shree International was one of the best decisions we made for our import-export operations.
@@ -350,8 +350,8 @@ function About() {
                                 </div>
                             </div>
                             
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “From navigating complex customs regulations to optimizing our logistics strategies,
@@ -370,8 +370,8 @@ function About() {
                                     <span className="text-black" style={{fontWeight:'bold'}}>Singapore</span>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “Their proactive communication, attention to detail, and commitment to
@@ -390,8 +390,8 @@ function About() {
                                     <span className="text-black" style={{fontWeight:'bold'}}>Nepal</span>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “Working with Shree International has been a game-changer for our supply chain. 
@@ -410,8 +410,8 @@ function About() {
                                     <span className="text-black" style={{fontWeight:'bold'}}>Vietnam</span>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “We've been partnering with Shree International for several years now, and they 
@@ -430,8 +430,8 @@ function About() {
                                     <span className="text-black"  style={{fontWeight:'bold'}}>Malaysia</span>
                                 </div>
                             </div>
-                            <div>
-                                <div className="block-testimony-1 text-center">
+                            <div >
+                                <div className="block-testimony-1 text-center" style={{width:'400px'}}>
                                     <blockquote className="mb-4">
                                         <p>
                                             “Choosing Shree International was one of the best decisions we made for 
