@@ -73,8 +73,7 @@ function Contact() {
                     <div className="row">
                         <div
                             className="col-12 text-center mb-5"
-                            data-aos="fade-up"
-                            data-aos-delay=""
+                            
                         >
                             <div className="block-heading-1">
                                 <h2>Contact Us</h2>
@@ -82,7 +81,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-lg-8 mb-5" data-aos="fade-up" data-aos-delay={100}>
+                        <div className="col-lg-8 mb-5" >
                             <form action="#" method="post">
                                 <div className="form-group row">
                                     <div className="col-md-6 mb-4 mb-lg-0">

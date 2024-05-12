@@ -34,8 +34,7 @@ function About() {
                             <div className="row">
                                 <div
                                     className="col-6 col-md-6 mb-4 col-lg-0 col-lg-3"
-                                    data-aos="fade-up"
-                                    data-aos-delay=""
+                                    
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
@@ -46,8 +45,7 @@ function About() {
                                 </div>
                                 <div
                                     className="col-6 col-md-6 mb-4 col-lg-0 col-lg-3"
-                                    data-aos="fade-up"
-                                    data-aos-delay={100}
+                                    
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
@@ -58,8 +56,7 @@ function About() {
                                 </div>
                                 <div
                                     className="col-6 col-md-6 mb-4 col-lg-0 col-lg-3"
-                                    data-aos="fade-up"
-                                    data-aos-delay={200}
+                                   
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
@@ -70,8 +67,7 @@ function About() {
                                 </div>
                                 <div
                                     className="col-6 col-md-6 mb-4 col-lg-0 col-lg-3"
-                                    data-aos="fade-up"
-                                    data-aos-delay={300}
+                                   
                                 >
                                     <div className="block-counter-1">
                                         <span className="number">
@@ -90,7 +86,7 @@ function About() {
                 <div className="container">
                     <div className="row mb-5 justify-content-center">
                         <div className="col-md-7 text-center">
-                            <div className="block-heading-1" data-aos="fade-up" data-aos-delay="">
+                            <div className="block-heading-1" >
                                 <h2>Founder</h2>
                                 <p>
                                     Our dedicated team of industry experts is the driving force behind our success, delivering excellence with every shipment.
@@ -134,8 +130,7 @@ function About() {
                             <div className="col-md-7">
                                 <div
                                     className="block-heading-1"
-                                    data-aos="fade-up"
-                                    data-aos-delay=""
+                                   
                                 >
                                     <h2>Products</h2>
                                     <p>
@@ -206,7 +201,7 @@ function About() {
                         </div>
                         <div className="row">
                             <div className="col-lg-6">
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5"  >
                                     <h3 className="text-black h4 mb-4">
                                         What shipping methods do you offer?
                                     </h3>
@@ -214,7 +209,7 @@ function About() {
                                         We offer a range of shipping options, including air freight, ocean freight, and ground transportation, tailored to meet your specific needs.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">
                                         How can I track my shipment?
                                     </h3>
@@ -222,7 +217,7 @@ function About() {
                                         You can track your shipment in real-time using our online tracking system or by contacting our customer support team for assistance.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">
                                         What countries do you ship to?
                                     </h3>
@@ -230,7 +225,7 @@ function About() {
                                         We provide import and export services to destinations worldwide, ensuring seamless delivery to virtually any location.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">
                                         What documents are required for customs clearance?
                                     </h3>
@@ -240,20 +235,20 @@ function About() {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">How do you ensure the safety of my cargo?</h3>
                                     <p>
                                         We implement stringent security measures and work with trusted carriers to safeguard your cargo throughout the transportation process.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">What are your payment terms?</h3>
                                     <p>
                                         Our payment terms are flexible and can be tailored to suit your preferences, with options 
                                         including LOC(Letter Of Credit), Cash In Advance, Documentary Collections, Wire Transfer.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">
                                         Do you provide insurance for shipments?
                                     </h3>
@@ -261,7 +256,7 @@ function About() {
                                         Yes, we offer comprehensive cargo insurance options to protect your shipments against loss, damage, or theft during transit.
                                     </p>
                                 </div>
-                                <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="mb-5" >
                                     <h3 className="text-black h4 mb-4">
                                         How do I get started with your services?
                                     </h3>
@@ -279,13 +274,11 @@ function About() {
                             <div
                                 className="col-12 col-lg-6 block__73422 order-lg-2"
                                 style={{ backgroundImage: `url(${require("../assets/images/man-with-container.jpg")})` }}
-                                data-aos="fade-left"
-                                data-aos-delay=""
+                                
                             ></div>
                             <div
                                 className="col-lg-5 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1"
-                                data-aos="fade-right"
-                                data-aos-delay=""
+                               
                             >
                                 <h2 className="mb-4 text-black">Why Shree International</h2>
                                 <p>
@@ -305,7 +298,7 @@ function About() {
                 <div
                     className="site-section bg-light block-13"
                     id="testimonials-section"
-                    data-aos="fade"
+                   
                 >
                     <div className="container">
                         <div className="text-center mb-5">
@@ -313,8 +306,8 @@ function About() {
                                 <h2>Happy Clients</h2>
                             </div>
                         </div>
-                        <div className="owl-carousel nonloop-block-13">
-                        <div>
+                        <div className="owl-carousel " style={{display:'block',opacity:'1'}}>
+                            <div>
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
                                         <p>
@@ -467,8 +460,7 @@ function About() {
                             <div className="col-lg-4 mb-5 mb-lg-0">
                                 <div
                                     className="block-heading-1"
-                                    data-aos="fade-right"
-                                    data-aos-delay=""
+                                   
                                 >
                                     <h2>Articles</h2>
                                 </div>
@@ -478,8 +470,7 @@ function About() {
                             <div className="col-lg-6">
                                 <div
                                     className="mb-5 d-block blog-entry"
-                                    data-aos="fade-right"
-                                    data-aos-delay=""
+                                   
                                 >
                                     <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
@@ -504,8 +495,7 @@ function About() {
                             <div className="col-lg-6">
                                 <div
                                     className="mb-5 d-block blog-entry"
-                                    data-aos="fade-right"
-                                    data-aos-delay=""
+                                    
                                 >
                                     <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
