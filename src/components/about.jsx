@@ -312,7 +312,7 @@ function About() {
                                 <h2>Happy Clients</h2>
                             </div>
                         </div>
-                        <div className="owl-carousel nonloop-block-13">
+                        <div className="owl-carousel nonloop-block-13" style={{display:'block', opacity:'1'}}>
                         <div>
                                 <div className="block-testimony-1 text-center">
                                     <blockquote className="mb-4">
