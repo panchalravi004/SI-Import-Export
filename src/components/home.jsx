@@ -58,7 +58,7 @@ function Home() {
                     </div>
                     <div className="site-section ftco-service-image-1 pb-5">
                         <div className="container">
-                            <div className="owl-carousel owl-all" style={{display:'block', opacity:'1'}}>
+                            <div className="owl-carousel owl-all">
                                 <div className="service text-center">
                                     <a href="/">
                                         <img

@@ -25,7 +25,7 @@ function About() {
                     <div className="row justify-content-center mb-4 block-img-video-1-wrap">
                         <div className="col-md-12 mb-5">
                             <img src={require("../assets/images/ship-1.jpg")} alt='test' className='col-lg-4 col-12' />
-                            <img src={require("../assets/images/ship-3.jpg")} alt='test' className='col-lg-4 col-12' style={{ margin: "10px 0px" }} />
+                            <img src={require("../assets/images/ship-3.jpg")} alt='test' className='col-lg-4 col-12' style={{margin:"10px 0px"}} />
                             <img src={require("../assets/images/ship-4.jpg")} alt='test' className='col-lg-4 col-12' />
                         </div>
                     </div>
@@ -101,25 +101,25 @@ function About() {
 
                     <div className="container">
 
-                        <div class="row" style={{ margin: '30px 0px' }}>
+                        <div class="row" style={{margin:'30px 0px'}}>
                             <div className="col-lg-6">
-                                <div style={{ width: '100%', height: '400px', }}>
+                                <div style={{width:'100%', height:'400px',}}>
 
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '10px' }} alt='owner' src={require('../assets/images/owners-v3.jpg')} />
+                                    <img style={{width:'100%', height:'100%', objectFit:'cover', borderRadius:'10px'}} alt='owner' src={require('../assets/images/owners-v3.jpg')}/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Juhil Golaviya & Rutvik Golaviya</span>
+                                <span style={{fontSize:'20px', fontWeight:'bold'}}>Juhil Golaviya & Rutvik Golaviya</span>
                                 <p style={{ margin: '10px 0px' }}>
                                     Founders
                                 </p>
                                 <p>
-                                    At Shree International, we pride ourselves on being a leading player in the import and export industry.
-                                    Our mission is to facilitate international trade by providing efficient and cost-effective solutions to
+                                    At Shree International, we pride ourselves on being a leading player in the import and export industry. 
+                                    Our mission is to facilitate international trade by providing efficient and cost-effective solutions to 
                                     businesses of all sizes.
-                                    <br /><br />
-                                    With our team of experts and a strong global network, we ensure smooth operations, timely deliveries, and
-                                    exceptional customer service. Learn more about our company, values, and commitment to excellence on our
+                                    <br/><br/>
+                                    With our team of experts and a strong global network, we ensure smooth operations, timely deliveries, and 
+                                    exceptional customer service. Learn more about our company, values, and commitment to excellence on our 
                                     About Us page.
                                 </p>
                             </div>
@@ -151,14 +151,14 @@ function About() {
                                         src={require("../assets/images/product/pro-1.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Boat on Calm Water"
-                                        style={{ height: "200px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
                                     />
 
                                     <img
                                         src={require("../assets/images/product/pro-2.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Wintry Mountain Landscape"
-                                        style={{ height: "400px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
                                     />
                                 </div>
 
@@ -167,14 +167,14 @@ function About() {
                                         src={require("../assets/images/product/pro-3.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Mountains in the Clouds"
-                                        style={{ height: "400px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
                                     />
 
                                     <img
                                         src={require("../assets/images/product/pro-8.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Boat on Calm Water"
-                                        style={{ height: "200px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
                                     />
                                 </div>
 
@@ -183,14 +183,14 @@ function About() {
                                         src={require("../assets/images/product/pro-5.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Waves at Sea"
-                                        style={{ height: "200px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"200px",width:'100%',objectFit:"cover"}}
                                     />
 
                                     <img
                                         src={require("../assets/images/product/pro-6.png")}
                                         className="w-100 shadow-1-strong rounded mb-4"
                                         alt="Yosemite National Park"
-                                        style={{ height: "400px", width: '100%', objectFit: "cover" }}
+                                        style={{height:"400px",width:'100%',objectFit:"cover"}}
                                     />
                                 </div>
                             </div>
@@ -249,7 +249,7 @@ function About() {
                                 <div className="mb-5" data-aos="fade-up" data-aos-delay={100}>
                                     <h3 className="text-black h4 mb-4">What are your payment terms?</h3>
                                     <p>
-                                        Our payment terms are flexible and can be tailored to suit your preferences, with options
+                                        Our payment terms are flexible and can be tailored to suit your preferences, with options 
                                         including LOC(Letter Of Credit), Cash In Advance, Documentary Collections, Wire Transfer.
                                     </p>
                                 </div>
@@ -304,7 +304,8 @@ function About() {
                 </div>
                 <div
                     className="site-section bg-light block-13"
-
+                    id="testimonials-section"
+                    data-aos="fade"
                 >
                     <div className="container">
                         <div className="text-center mb-5">
@@ -312,162 +313,152 @@ function About() {
                                 <h2>Happy Clients</h2>
                             </div>
                         </div>
-                        <div class="carousel slide" data-ride="carousel" style={{height:'auto', minHeight:'600px'}}>
-                            <div className="carousel-inner">
-
-                                <div className='carousel-item active'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “Working with Shree International has been a game-changer for our supply chain management.
-                                                Their expertise and efficiency have streamlined our processes, saving us time and resources
-                                                while enhancing our operational performance. Their commitment to customer satisfaction is evident
-                                                in every interaction, and we couldn't be happier with the results.”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_1.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Ken Davis</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Africa</span>
-                                    </div>
+                        <div className="owl-carousel nonloop-block-13">
+                        <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Working with Shree International has been a game-changer for our supply chain management.
+                                            Their expertise and efficiency have streamlined our processes, saving us time and resources
+                                            while enhancing our operational performance. Their commitment to customer satisfaction is evident
+                                            in every interaction, and we couldn't be happier with the results.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_1.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Ken Davis</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Africa</span>
                                 </div>
-                                
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “Choosing Shree International was one of the best decisions we made for our import-export operations.
-                                                Their attention to detail and proactive approach have consistently ensured smooth transactions and timely deliveries.
-                                                Their team truly understands our business needs and goes the extra mile to exceed our expectations.
-                                                Highly recommended!”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_3.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Ricky Fisher</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>UAE</span>
-                                    </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Choosing Shree International was one of the best decisions we made for our import-export operations.
+                                            Their attention to detail and proactive approach have consistently ensured smooth transactions and timely deliveries.
+                                            Their team truly understands our business needs and goes the extra mile to exceed our expectations.
+                                            Highly recommended!”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_3.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Ricky Fisher</h3>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>UAE</span>
                                 </div>
-
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “From navigating complex customs regulations to optimizing our logistics strategies,
-                                                they have consistently delivered exceptional service and tangible results. Their
-                                                professionalism and reliability make them an invaluable asset to our business.”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_2.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Singapore</span>
-                                    </div>
+                            </div>
+                            
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “From navigating complex customs regulations to optimizing our logistics strategies,
+                                            they have consistently delivered exceptional service and tangible results. Their
+                                            professionalism and reliability make them an invaluable asset to our business.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_2.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Mellisa Griffin</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Singapore</span>
                                 </div>
-                                
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “Their proactive communication, attention to detail, and commitment to
-                                                finding innovative solutions have made our import-export processes seamless
-                                                and stress-free. We couldn't be happier with the level of service they provide.”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_4.jpg")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Robert Steward</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Nepal</span>
-                                    </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Their proactive communication, attention to detail, and commitment to
+                                            finding innovative solutions have made our import-export processes seamless
+                                            and stress-free. We couldn't be happier with the level of service they provide.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_4.jpg")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Robert Steward</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Nepal</span>
                                 </div>
-
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “Working with Shree International has been a game-changer for our supply chain.
-                                                Their expertise and dedication to efficiency have helped us optimize our operations
-                                                and reduce costs. Their team is always responsive and proactive”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_1.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">David M</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Vietnam</span>
-                                    </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Working with Shree International has been a game-changer for our supply chain. 
+                                            Their expertise and dedication to efficiency have helped us optimize our operations 
+                                            and reduce costs. Their team is always responsive and proactive”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_1.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">David M</h3>
+                                    <span className="text-black" style={{fontWeight:'bold'}}>Vietnam</span>
                                 </div>
-
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “We've been partnering with Shree International for several years now, and they
-                                                have consistently delivered exceptional service. Their attention to detail, reliability,
-                                                and commitment to customer satisfaction set them apart.”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_3.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Jessica K</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Malaysia</span>
-                                    </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “We've been partnering with Shree International for several years now, and they 
+                                            have consistently delivered exceptional service. Their attention to detail, reliability, 
+                                            and commitment to customer satisfaction set them apart.”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_3.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Jessica K</h3>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>Malaysia</span>
                                 </div>
-                                
-                                <div className='carousel-item'>
-                                    <div className="block-testimony-1 text-center">
-                                        <blockquote className="mb-4">
-                                            <p>
-                                                “Choosing Shree International was one of the best decisions we made for
-                                                our import-export business. Their expertise in navigating international
-                                                trade regulations and their dedication to providing personalized solutions
-                                                have been invaluable to us. ”
-                                            </p>
-                                        </blockquote>
-                                        <figure>
-                                            <img
-                                                alt="Image"
-                                                className="img-fluid rounded-circle mx-auto"
-                                                src={require("../assets/images/person_2.jpg.webp")}
-                                            />
-                                        </figure>
-                                        <h3 className="font-size-20 text-black">Alex H</h3>
-                                        <span className="text-black" style={{ fontWeight: 'bold' }}>Srilanka</span>
-                                    </div>
+                            </div>
+                            <div>
+                                <div className="block-testimony-1 text-center">
+                                    <blockquote className="mb-4">
+                                        <p>
+                                            “Choosing Shree International was one of the best decisions we made for 
+                                            our import-export business. Their expertise in navigating international 
+                                            trade regulations and their dedication to providing personalized solutions 
+                                            have been invaluable to us. ”
+                                        </p>
+                                    </blockquote>
+                                    <figure>
+                                        <img
+                                            alt="Image"
+                                            className="img-fluid rounded-circle mx-auto"
+                                            src={require("../assets/images/person_2.jpg.webp")}
+                                        />
+                                    </figure>
+                                    <h3 className="font-size-20 text-black">Alex H</h3>
+                                    <span className="text-black"  style={{fontWeight:'bold'}}>Srilanka</span>
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="owl-carousel nonloop-block-13" style={{ display: 'block', opacity: '1' }}>
-                        </div> */}
                     </div>
                 </div>
                 <div className="site-section py-5" id="blog-section">
@@ -490,7 +481,7 @@ function About() {
                                     data-aos="fade-right"
                                     data-aos-delay=""
                                 >
-                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{ marginRight: '0' }}>
+                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
                                             alt="Image"
                                             className="img-fluid"
@@ -516,7 +507,7 @@ function About() {
                                     data-aos="fade-right"
                                     data-aos-delay=""
                                 >
-                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{ marginRight: '0' }}>
+                                    <a href="/" className="blog-thumbnail mb-3 d-block" style={{marginRight:'0'}}>
                                         <img
                                             alt="Image"
                                             className="img-fluid"

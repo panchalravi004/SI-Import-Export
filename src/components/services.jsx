@@ -15,7 +15,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="owl-carousel owl-all" style={{display:'block', opacity:'1'}}>
+                    <div className="owl-carousel owl-all">
                         <div className="block__35630 text-center">
                             <div className="icon mb-0">
                                 <span className="flaticon-ferry" />
