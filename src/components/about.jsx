@@ -10,7 +10,7 @@ function About() {
                 <div className="container">
                     <div className="row mb-5 justify-content-center">
                         <div className="col-md-7 text-center">
-                            <div className="block-heading-1" data-aos="fade-up" data-aos-delay="">
+                            <div className="block-heading-1">
                                 <h2>About Us</h2>
                                 <p>
                                     Welcome to Shree International Import Export, your trusted partner in the dynamic world of import and export. Established with a vision to redefine global trade, we bring together expertise, innovation, and a commitment to excellence in every aspect of our operations.
