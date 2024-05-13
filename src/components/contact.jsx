@@ -31,7 +31,7 @@ function Contact() {
         form.append('message', formData['message'])
         try {
             setLoading(true);
-            const response = await fetch('/',{
+            const response = await fetch('https://shreeinternationalimportexport.com/phpmailer.php',{
                 method:'POST',
                 body:form
             })
