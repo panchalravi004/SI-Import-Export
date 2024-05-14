@@ -9,6 +9,18 @@ jQuery(document).ready(function($) {
 	"use strict";
 
 
+	$(".right-caret-btn").click(function () {
+		$(".client-carousel").animate({
+			scrollLeft: $(".client-carousel").scrollLeft() + 400 + "px"
+		}, 1000)
+	})
+	$(".left-caret-btn").click(function () {
+		$(".client-carousel").animate({
+			scrollLeft: $(".client-carousel").scrollLeft() - 400 + "px"
+		}, 1000)
+	})
+
+
 
 	var siteMenuClone = function() {
 
