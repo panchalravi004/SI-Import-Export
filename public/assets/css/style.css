@@ -858,6 +858,9 @@ h5,
   color: #000;
   font-family: 'Georgia', Times, serif;
   position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .block-testimony-1 figure {
@@ -1421,6 +1424,10 @@ h5,
 @media (max-width: 668px) {
     .client-carousel .block-testimony-1{
       width: 380px;
+    }
+
+    .block-testimony-1 blockquote {
+      height: 400px;
     }
 }
 
