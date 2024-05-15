@@ -82,7 +82,7 @@ function Contact() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-8 mb-5" >
-                            <form action="#" method="post">
+                            <form method="post" onSubmit={handleFormSubmit}>
                                 <div className="form-group row">
                                     <div className="col-md-6 mb-4 mb-lg-0">
                                         <input
@@ -91,7 +91,7 @@ function Contact() {
                                             id="firstName"
                                             className="form-control"
                                             placeholder="First name"
-                                            onChange={handleInputChange}
+                                            onChange={handleInputChange} required
                                         />
                                     </div>
                                     <div className="col-md-6">
@@ -101,7 +101,7 @@ function Contact() {
                                             id="lastName"
                                             className="form-control"
                                             placeholder="Last name"
-                                            onChange={handleInputChange}
+                                            onChange={handleInputChange} required
                                         />
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@ function Contact() {
                                             id="email"
                                             className="form-control"
                                             placeholder="Email address"
-                                            onChange={handleInputChange}
+                                            onChange={handleInputChange} required
                                         />
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ function Contact() {
                                             id="phone"
                                             className="form-control"
                                             placeholder="Phone number"
-                                            onChange={handleInputChange}
+                                            onChange={handleInputChange} required
                                         />
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ function Contact() {
                                             cols={30}
                                             rows={10}
                                             defaultValue={""}
-                                            onChange={handleInputChange}
+                                            onChange={handleInputChange} required
                                         />
                                     </div>
                                 </div>
@@ -149,7 +149,6 @@ function Contact() {
                                             type="submit"
                                             className="btn btn-block btn-primary text-white py-3 px-5"
                                             defaultValue="Send Message"
-                                            onClick={handleFormSubmit}
                                         />
                                     </div>
                                 </div>

@@ -1354,6 +1354,7 @@ h5,
 
 @media (min-width: 992px) {
 
+
   .owl-all .owl-nav,
   .owl-all .owl-dots {
     display: none;
@@ -1410,4 +1411,15 @@ h5,
 }
 .client-carousel::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
+}
+
+.client-carousel .block-testimony-1{
+  width: 550px;
+}
+
+
+@media (max-width: 668px) {
+    .client-carousel .block-testimony-1{
+      width: 380px;
+    }
 }

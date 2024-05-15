@@ -8,17 +8,31 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
+	if ($(window).width() < 600) {
 
-	$(".right-caret-btn").click(function () {
-		$(".client-carousel").animate({
-			scrollLeft: $(".client-carousel").scrollLeft() + 400 + "px"
-		}, 1000)
-	})
-	$(".left-caret-btn").click(function () {
-		$(".client-carousel").animate({
-			scrollLeft: $(".client-carousel").scrollLeft() - 400 + "px"
-		}, 1000)
-	})
+		$(".right-caret-btn").click(function () {
+			$(".client-carousel").animate({
+				scrollLeft: $(".client-carousel").scrollLeft() + 380 + "px"
+			}, 1000)
+		})
+		$(".left-caret-btn").click(function () {
+			$(".client-carousel").animate({
+				scrollLeft: $(".client-carousel").scrollLeft() - 380 + "px"
+			}, 1000)
+		})
+	}else{
+
+		$(".right-caret-btn").click(function () {
+			$(".client-carousel").animate({
+				scrollLeft: $(".client-carousel").scrollLeft() + 550 + "px"
+			}, 1000)
+		})
+		$(".left-caret-btn").click(function () {
+			$(".client-carousel").animate({
+				scrollLeft: $(".client-carousel").scrollLeft() - 550 + "px"
+			}, 1000)
+		})
+	}
 
 
 
