@@ -8,28 +8,34 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
+	let count = 0;
+
 	if ($(window).width() < 600) {
 
 		$(".right-caret-btn").click(function () {
+			if(count < 6) count++;
 			$(".client-carousel").animate({
-				scrollLeft: $(".client-carousel").scrollLeft() + 380 + "px"
+				scrollLeft: (count * 380) + "px"
 			}, 1000)
 		})
 		$(".left-caret-btn").click(function () {
+			if(count > 0) count--;
 			$(".client-carousel").animate({
-				scrollLeft: $(".client-carousel").scrollLeft() - 380 + "px"
+				scrollLeft: (count * 380) + "px"
 			}, 1000)
 		})
 	}else{
 
 		$(".right-caret-btn").click(function () {
+			if(count < 5) count++;
 			$(".client-carousel").animate({
-				scrollLeft: $(".client-carousel").scrollLeft() + 550 + "px"
+				scrollLeft: (count * 550) + "px"
 			}, 1000)
 		})
 		$(".left-caret-btn").click(function () {
+			if(count > 0) count--;
 			$(".client-carousel").animate({
-				scrollLeft: $(".client-carousel").scrollLeft() - 550 + "px"
+				scrollLeft: (count * 550) + "px"
 			}, 1000)
 		})
 	}

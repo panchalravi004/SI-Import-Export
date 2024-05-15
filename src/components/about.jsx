@@ -455,10 +455,10 @@ function About() {
                         </div>
                         <div className="container d-flex justify-content-center align-items-center">                            
                             <div className="left-caret-btn" style={{margin:'5px 20px', fontSize:'25px'}}>
-                                <i class="fa-solid fa-arrow-left" style={{background: '#4a79b0',color: 'white',borderRadius: '50%',padding: '5px'}} aria-hidden="true"></i>
+                                <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
                             </div>
                             <div className="right-caret-btn" style={{margin:'5px 20px', fontSize:'25px'}}>
-                                <i class="fa-solid fa-arrow-right" style={{background: '#4a79b0',color: 'white',borderRadius: '50%',padding: '5px'}} aria-hidden="true"></i>
+                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>

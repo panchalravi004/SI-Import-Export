@@ -1423,3 +1423,17 @@ h5,
       width: 380px;
     }
 }
+
+.left-caret-btn i, .right-caret-btn i{
+  padding: 5px;
+  transition: 0.4s;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+.left-caret-btn:hover i, .right-caret-btn:hover i{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
